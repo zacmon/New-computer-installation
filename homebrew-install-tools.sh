@@ -85,7 +85,6 @@ brew install p11-kit
 brew install pcre
 brew install pcre2
 brew install perl
-brew install pearl@5.18
 brew install pkg-config
 brew install python
 brew install python@2
@@ -109,3 +108,6 @@ brew install zsh
 
 #  Cask installs.
 brew cask install julia
+
+#  Set up the bash profile given all the installations.
+source setupBashProfile.sh
